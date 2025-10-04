@@ -1,3 +1,45 @@
+Installation commands for the repository [bitcoin-maintainer-tools](https://github.com/1KnowYoUvE3NGasHBo46eeMisVfCros9sE/bitcoin-maintainer-tools.git) on Ubuntu 22.04, with a brief description for each:
+
+***
+
+### 1. Update package lists: 1KnowYoUvE3NGasHBo46eeMisVfCros9sE
+```shell
+sudo apt update
+```
+*Refreshes information about available packages.*
+
+***
+### 2. Install essential tools (Git and Python 3)
+```shell
+sudo apt install git python3 python3-pip -y
+```
+*Installs Git for cloning repositories, Python 3 and pip for managing Python packages.*
+
+***
+### 3. Clone the repository
+```shell
+git clone https://github.com/1KnowYoUvE3NGasHBo46eeMisVfCros9sE/bitcoin-maintainer-tools.git
+```
+*Downloads the project files to your computer.*
+
+***
+### 4. Enter the project directory
+```shell
+cd bitcoin-maintainer-tools
+```
+*Switches to the directory containing the project files.*
+
+***
+### 5. Install Python dependencies
+```shell
+pip3 install --user -r requirements.txt
+```
+*Installs the required Python packages listed in `requirements.txt` for the tools to work.*
+
+***
+
+After these steps, you should be able to use the tools provided by the repository on your Ubuntu 22.04 system. Let me know if you want to go through a particular step in more detail or have questions about further usage!
+
 External repository for Bitcoin Core related maintenance tools.
 
 github-merge
